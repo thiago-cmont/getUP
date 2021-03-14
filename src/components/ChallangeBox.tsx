@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { ChallangesContext } from "../context/ChallangesContext";
 import { CountdownContext } from "../context/CountdownContext";
 import styles from "../styles/components/ChallangeBox.module.css";
-//'teste'
+//'teste feature dark theme'
 export function ChallangeBox() {
   const { activeChallange, resetChallange, completeChallange } = useContext(
     ChallangesContext
